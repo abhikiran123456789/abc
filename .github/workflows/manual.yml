@@ -43,5 +43,5 @@ jobs:
                cd ~/CICD
                git pull origin main
                npm run build
-               pm2 restart app
+               pm2 restart api
               
